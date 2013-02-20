@@ -1,0 +1,8 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+@using (var t = Html.JQueryUI().BeginTabs())
+{
+    t.AjaxTab("Register", Url.Action("Register"));
+    t.AjaxTab("Sign In", Url.Action("SignIn")); 
+}
