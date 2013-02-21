@@ -4,5 +4,6 @@
 @using (var t = Html.JQueryUI().BeginTabs())
 {
     t.AjaxTab("Register", Url.Action("Register"));
-    t.AjaxTab("Sign In", Url.Action("SignIn")); 
+    t.AjaxTab("Sign In", Url.Action("SignIn"));
+    t.AjaxTab("Center", Url.Action("ProgramLocations")); 
 }

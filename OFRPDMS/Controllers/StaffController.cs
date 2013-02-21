@@ -23,6 +23,9 @@ namespace OFRPDMS.Controllers
         {
             return PartialView();
         }
-
+        public ActionResult ProgramLocations()
+        {
+            return PartialView();
+        }
     }
 }
